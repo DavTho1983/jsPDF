@@ -3379,22 +3379,22 @@
           break;
 
         case "mm":
-          scaleFactor = 72 / 25.4;
+          scaleFactor = 300 / 25.4;
           break;
 
         case "cm":
-          scaleFactor = 72 / 2.54;
+          scaleFactor = 300 / 2.54;
           break;
 
         case "in":
-          scaleFactor = 72;
+          scaleFactor = 300;
           break;
 
         case "px":
           if (hasHotfix("px_scaling") == true) {
-            scaleFactor = 72 / 96;
+            scaleFactor = 300 / 96;
           } else {
-            scaleFactor = 96 / 72;
+            scaleFactor = 96 / 300;
           }
 
           break;
